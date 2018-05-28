@@ -1,0 +1,20 @@
+{
+    "name": "Keyword and Channel Blocker for Youtube™",
+    "short_name": "ChnlKeyBlock",
+    "manifest_version": 2,
+    "version": "0.00",
+    "author": "Liam Hilliard",
+    "description": "This extension allows users to block specific keywords and channel names on YouTube.com. Suggested videos with titles or channel names matching the list of blocked words will not be shown. Users attempting to navigate to a channel matching a blocked name will be redirected back or to the YouTube homepage.",
+    "permissions": [
+        "declarativeContent"
+    ],
+    "background": {
+        "scripts": [
+            "popup.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "menu.html"
+    }
+}
