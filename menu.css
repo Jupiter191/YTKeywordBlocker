@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body{
+    width: 500px;
+    min-height: 300px;
+    max-height: 600px;
+    overflow-y: auto;
+    font-size: 12px;
+}
+
+body{
+}
+
+header{
+    height: 20px;
+    background-color: teal;
+
+}
+
+.main{
+    padding: 10px 30px;
+}
+
+footer{
+    height: 20px;
+    background-color: teal;
+}
